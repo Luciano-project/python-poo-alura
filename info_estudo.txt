@@ -1,0 +1,5 @@
+Estes arquivos python são para a construção de uma playlist de filmes e séries.
+
+Conceitos e prática relacionada a Orientação a Objetos, Herança, Polimorfismo dentre outra funções importantes para a configuração dos objetos.
+
+O arquivo modelos.py é a parte core da nossa solução. A parte2 já é utilizando abstrações de Herança e Polimorfismo.
