@@ -3,3 +3,10 @@ Estes arquivos python são para a construção de uma playlist de filmes e séri
 Conceitos e prática relacionada a Orientação a Objetos, Herança, Polimorfismo dentre outra funções importantes para a configuração dos objetos.
 
 O arquivo modelos.py é a parte core da nossa solução. A parte2 já é utilizando abstrações de Herança e Polimorfismo.
+
+A parte3 já estamos otimizando ainda mais o código com implentação de funcionalidades mantendo boas práticas, fazendo do código algo mais pythônico
+
+parte4 estamos criando um método padrão do python para atrbuir a funcionalidade de um interável, o que nos faz ganhar mais ao crescer nosso programa.
+    def __getitem__(self,item):
+        return self._programas[item]
+Com isso ganhamos funcionalidades de lista, sem que fosse necessário herdar list (também chamado de extender list()), como "for in", indexação. A esse tipo de estruturação do código damos o nome de "duck type".
